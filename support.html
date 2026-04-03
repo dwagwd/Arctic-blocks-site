@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Arctic Blocks Support</title>
+  <style>
+    :root {
+      --bg: #081a2c;
+      --panel: #102a40;
+      --ink: #ebf7ff;
+      --muted: #9fc4dd;
+      --accent: #77f0bd;
+      --line: rgba(117, 195, 231, 0.3);
+      --btn: #0f3f65;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Avenir Next", "Trebuchet MS", -apple-system, BlinkMacSystemFont, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 0% 0%, rgba(66, 172, 230, 0.23), transparent 36%),
+        radial-gradient(circle at 100% 20%, rgba(94, 255, 191, 0.14), transparent 40%),
+        var(--bg);
+      line-height: 1.6;
+    }
+    main {
+      width: min(860px, 92vw);
+      margin: 28px auto;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 14px 42px rgba(3, 14, 29, 0.46);
+    }
+    h1 { margin: 0 0 10px; font-size: clamp(28px, 4.7vw, 40px); color: var(--accent); }
+    h2 { margin-top: 22px; }
+    .muted { color: var(--muted); }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 18px;
+      margin-bottom: 18px;
+    }
+    .btn {
+      display: inline-block;
+      background: var(--btn);
+      color: var(--ink);
+      text-decoration: none;
+      border: 1px solid rgba(159, 228, 255, 0.38);
+      border-radius: 12px;
+      padding: 10px 14px;
+      font-weight: 800;
+    }
+    a { color: #9de6ff; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Arctic Blocks Support</h1>
+    <p class="muted">Use this page for gameplay, Game Center, ad, or technical help.</p>
+
+    <div class="actions">
+      <a class="btn" href="index.html">Back to Home</a>
+      <a class="btn" href="privacy-policy.html">View Privacy Policy</a>
+      <a class="btn" href="https://github.com/dwagwd/Arctic-blocks-site" target="_blank" rel="noopener noreferrer">Site Repository</a>
+    </div>
+
+    <h2>How To Get Help</h2>
+    <p>Use this page as the App Store Connect Support URL for Arctic Blocks. For the public site source and release-related repo details, use the repository link above. If you are testing a pre-release build, contact the person who provided the build.</p>
+
+    <h2>What To Include</h2>
+    <ul>
+      <li>Device model and iOS version.</li>
+      <li>App version.</li>
+      <li>What you expected to happen and what happened instead.</li>
+      <li>Screenshots or logs, if available.</li>
+    </ul>
+
+    <h2>Game Center</h2>
+    <p>For Game Center account, sign-in, or parental control issues, contact Apple Support in addition to using the support channel above.</p>
+  </main>
+</body>
+</html>
